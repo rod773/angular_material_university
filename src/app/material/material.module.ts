@@ -7,25 +7,18 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';
 
+const material = [
+  MatSliderModule,
+  MatCheckboxModule,
+  FormsModule,
+  MatInputModule,
+  MatFormFieldModule,
+  MatCardModule,
+];
+
 @NgModule({
   declarations: [],
-  imports: [
-    CommonModule,
-    MatSliderModule,
-    MatCheckboxModule,
-    FormsModule,
-    MatInputModule,
-    MatFormFieldModule,
-    MatCardModule,
-  ],
-  exports: [
-    MatSliderModule,
-    MatSliderModule,
-    MatCheckboxModule,
-    FormsModule,
-    MatInputModule,
-    MatFormFieldModule,
-    MatCardModule,
-  ],
+  imports: [CommonModule, material],
+  exports: [material],
 })
 export class MaterialModule {}
