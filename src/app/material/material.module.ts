@@ -6,6 +6,8 @@ import { FormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 const material = [
   MatSliderModule,
@@ -14,6 +16,8 @@ const material = [
   MatInputModule,
   MatFormFieldModule,
   MatCardModule,
+  MatSidenavModule,
+  MatToolbarModule,
 ];
 
 @NgModule({
