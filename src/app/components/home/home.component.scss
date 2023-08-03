@@ -1,0 +1,12 @@
+.courses-panel {
+    width: 100%;
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .title {
+            margin-right: 10px;
+        }
+    }
+}
